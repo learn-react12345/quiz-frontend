@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+        "id": 1,
+        "fullName": "le dinh thanh",
+        "email": "thanh@gmail.com",
+        "password":"12345",
+        "token": "bkP9VQydMBRmW67obqD7"
+    },
+    {
+        "id": 2,
+        "fullName": "le dinh nhan",
+        "email": "nhan@gmail.com",
+        "password":"123456",
+        "token": "KsZitkpwbbPF3fdjbQwh"
+    }
+  ],
+  "topics": [
+    {
+        "id": 1,
+        "name": "HTML5"
+    },
+    {
+        "id": 2,
+        "name": "CSS3"
+    },
+    {
+        "id": 3,
+        "name": "Javascript"
+    },
+    {
+        "id": 4,
+        "name": "ReactJS"
+    }
+  ],
+  "questions": [
+    {
+        "id" : 1,
+        "topicId" : 1,
+        "question" : "cau hoi 1",
+        "answers": [
+            "lua chon 1",
+            "lua chon 2",
+            "lua chon 3"
+        ],
+        "correctAnswer": 2
+    }
+  ],
+  "answers" : [
+    {
+        "userId" : 5,
+        "topicId" : 1,
+        "answers" : [
+            {
+                "questionId" :1,
+                "answer":1
+            }  
+        ]
+    }
+  ]
+}
