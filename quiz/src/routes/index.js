@@ -9,50 +9,49 @@ import Result from "../Pages/Result";
 import Topic from "../Pages/Topic";
 import Logout from "../Pages/Logout";
 
-
-
 export const routes = [
-    {
-        path : "/",
-        element : <LayoutDefault/>,
-        children : [
-            {
-                path : "/",
-                element : <Home />,
-            },
-            {
-                path : "login",
-                element : <Login />,
-            },
-            {
-                path : "register",
-                element : <Register />,
-            },
-            {
-                path : "logout",
-                element : <Logout />,
-            },
-            {
-                element : <PrivateRoutes />,
-                children : [
-                    {
-                        path : "answers",
-                        element : <Answers />,
-                    },
-                    {
-                        path : "quiz/:id",
-                        element : <Quiz />,
-                    },
-                    {
-                        path : "result/:id",
-                        element : <Result />,
-                    },
-                    {
-                        path : "topic",
-                        element : <Topic />,
-                    }
-                ]
-            }
-        ]
-    }
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/register",
+    element: <Register />,
+  },
+  {
+    path: "/logout",
+    element: <Logout />,
+  },
+
+  {
+    path: "/",
+    element: <LayoutDefault />,
+    children: [
+      {
+        index: true,
+        element: <Home />,
+      },
+      {
+        element: <PrivateRoutes />,
+        children: [
+          {
+            path: "answers",
+            element: <Answers />,
+          },
+          {
+            path: "quiz/:id",
+            element: <Quiz />,
+          },
+          {
+            path: "result/:id",
+            element: <Result />,
+          },
+          {
+            path: "topic",
+            element: <Topic />,
+          },
+        ],
+      },
+    ],
+  },
 ];

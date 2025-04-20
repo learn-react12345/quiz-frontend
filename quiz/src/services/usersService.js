@@ -15,6 +15,11 @@ export const checkExits = async (key,value) => {
     return result;
 };
 
+export const getAllUsers = async () => {
+    const result = await get("users");
+    return result;
+};
+
 
 
 
