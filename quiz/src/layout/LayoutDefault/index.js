@@ -6,7 +6,6 @@ import { useSelector } from "react-redux";
 function LayoutDefault() {
     const token = getCookie("token");
     const isLogin = useSelector(state => state.loginReducer);
-    console.log(isLogin);
     return (
         <>
             <div className ="layout-default">

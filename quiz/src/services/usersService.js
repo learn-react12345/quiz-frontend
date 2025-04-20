@@ -5,20 +5,16 @@ export const login = async (email, password) => {
     return result;
 };
 
-export const createProduct = async (options) => {
-    const result = await post("products",options);
+export const register = async (options) => {
+    const result = await post(`users`,options);
     return result;
 };
 
-export const deleteProduct = async (id) => {
-    const result = await del('products/${id}');
+export const checkExits = async (key,value) => {
+    const result = await get(`users?${key}=${value}`);
     return result;
 };
 
-export const editProduct = async (id,options) => {
-    const result = await patch('products/${id}',options);
-    return result;
-};
 
 
 

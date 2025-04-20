@@ -40,11 +40,11 @@ export const routes = [
                         element : <Answers />,
                     },
                     {
-                        path : "quiz",
+                        path : "quiz/:id",
                         element : <Quiz />,
                     },
                     {
-                        path : "result",
+                        path : "result/:id",
                         element : <Result />,
                     },
                     {

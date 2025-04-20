@@ -1,61 +1,186 @@
 {
   "users": [
     {
-        "id": 1,
-        "fullName": "le dinh thanh",
-        "email": "thanh@gmail.com",
-        "password":"12345",
-        "token": "bkP9VQydMBRmW67obqD7"
+      "id": "1",
+      "fullName": "le dinh thanh",
+      "email": "thanh@gmail.com",
+      "password": "12345",
+      "token": "bkP9VQydMBRmW67obqD7"
     },
     {
-        "id": 2,
-        "fullName": "le dinh nhan",
-        "email": "nhan@gmail.com",
-        "password":"123456",
-        "token": "KsZitkpwbbPF3fdjbQwh"
+      "id": "2",
+      "fullName": "le dinh nhan",
+      "email": "nhan@gmail.com",
+      "password": "123456",
+      "token": "KsZitkpwbbPF3fdjbQwh"
+    },
+    {
+      "id": "8ed9",
+      "fullName": "le dinh t",
+      "email": "t@gmail.com",
+      "password": "1234567",
+      "token": "ROs2msqANDSt4ePV586e"
     }
   ],
   "topics": [
     {
-        "id": 1,
-        "name": "HTML5"
+      "id": "1",
+      "name": "HTML5"
     },
     {
-        "id": 2,
-        "name": "CSS3"
+      "id": "2",
+      "name": "CSS3"
     },
     {
-        "id": 3,
-        "name": "Javascript"
+      "id": "3",
+      "name": "Javascript"
     },
     {
-        "id": 4,
-        "name": "ReactJS"
+      "id": "4",
+      "name": "ReactJS"
     }
   ],
   "questions": [
     {
-        "id" : 1,
-        "topicId" : 1,
-        "question" : "cau hoi 1",
-        "answers": [
-            "lua chon 1",
-            "lua chon 2",
-            "lua chon 3"
-        ],
-        "correctAnswer": 2
+      "id": "1",
+      "topicId": 1,
+      "question": "cau hoi 1",
+      "answers": [
+        "lua chon 1",
+        "lua chon 2",
+        "lua chon 3"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "2",
+      "topicId": 2,
+      "question": "cau hoi 1",
+      "answers": [
+        "lua chon 1",
+        "lua chon 2",
+        "lua chon 3"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "3",
+      "topicId": 2,
+      "question": "cau hoi 2",
+      "answers": [
+        "lua chon 1",
+        "lua chon 2",
+        "lua chon 3"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "4",
+      "topicId": 2,
+      "question": "cau hoi 3",
+      "answers": [
+        "lua chon 1",
+        "lua chon 2",
+        "lua chon 3"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "5",
+      "topicId": 2,
+      "question": "cau hoi 4",
+      "answers": [
+        "lua chon 1",
+        "lua chon 2",
+        "lua chon 3"
+      ],
+      "correctAnswer": 2
     }
   ],
-  "answers" : [
+  "answers": [
     {
-        "userId" : 5,
-        "topicId" : 1,
-        "answers" : [
-            {
-                "questionId" :1,
-                "answer":1
-            }  
-        ]
-    }
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        { "questionId": 2, "answer": 1 },
+        { "questionId": 3, "answer": 2 },
+        { "questionId": 4, "answer": 2 },
+        { "questionId": 5, "answer": 3 }
+      ],
+      "id": "5792"
+    },
+    {
+      "userId": 3,
+      "topicId": 3,
+      "answers": [],
+      "id": "5793"
+    },
+    {
+      "userId": 2,
+      "topicId": 1,
+      "answers": [
+        { "questionId": 1, "answer": 2 }
+      ],
+      "id": "5794"
+    },
+    {
+      "userId": 1,
+      "topicId": 4,
+      "answers": [],
+      "id": "5795"
+    },
+    {
+      "userId": 2,
+      "topicId": 2,
+      "answers": [
+        { "questionId": 2, "answer": 2 },
+        { "questionId": 3, "answer": 3 }
+      ],
+      "id": "5796"
+    },
+    {
+      "userId": 3,
+      "topicId": 2,
+      "answers": [
+        { "questionId": 2, "answer": 1 },
+        { "questionId": 3, "answer": 1 },
+        { "questionId": 4, "answer": 2 },
+        { "questionId": 5, "answer": 3 }
+      ],
+      "id": "5797"
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        { "questionId": 1, "answer": 3 }
+      ],
+      "id": "5798"
+    },
+    {
+      "userId": 2,
+      "topicId": 3,
+      "answers": [],
+      "id": "5799"
+    },
+    {
+      "userId": 3,
+      "topicId": 1,
+      "answers": [
+        { "questionId": 1, "answer": 2 }
+      ],
+      "id": "5800"
+    },
+    {
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        { "questionId": 2, "answer": 3 },
+        { "questionId": 3, "answer": 2 },
+        { "questionId": 4, "answer": 1 },
+        { "questionId": 5, "answer": 2 }
+      ],
+      "id": "5801"
+    }    
   ]
 }
