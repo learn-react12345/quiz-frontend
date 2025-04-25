@@ -1,0 +1,68 @@
+.layout-default__header {
+    background: purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.layout-default__logo  {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.layout-default .menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.layout-default .menu ul li {
+    margin: 0 15px;
+}
+
+.layout-default .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.layout-default .menu ul li a.active {
+    border-bottom: 2px solid white;
+}
+
+.layout-default .menu ul li a:hover {
+    color: #333;
+}
+
+.layout-default__account a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.layout-default__account a:hover {
+    text-decoration: underline;
+}
+
+.layout-default__main {
+    padding: 20px;
+    min-height: 80vh;
+    background-color: #f9f9f9;
+}
+
+.layout-default__footer {
+    background: purple;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+}

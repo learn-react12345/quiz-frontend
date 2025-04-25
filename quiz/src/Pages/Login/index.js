@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { checkLogin } from "../../actions/login";
 import { FaUser, FaLock } from "react-icons/fa";
 
-import styles from "./login.module.css";
+import "./login.css"; 
 
 function Login() {
     const navigate = useNavigate();
@@ -30,35 +30,35 @@ function Login() {
     };
 
     return (
-        <div className={styles.loginPage}>
-            <div className={styles.wrapper}>
-                <form onSubmit={handleSubmit}>
-                    <h2 className={styles.title}>QUIZZZ</h2>
+        <div className="login-page">
+            <div className="login-page__wrapper">
+                <form onSubmit={handleSubmit} className="login-form">
+                    <h2 className="login-form__title">QUIZZZ</h2>
 
-                    <div className={styles.inputBox}>
+                    <div className="login-form__input-box">
                         <input type="email" placeholder="Nhập email" required />
-                        <FaUser className={styles.icon} />
+                        <FaUser className="login-form__icon" />
                     </div>
 
-                    <div className={styles.inputBox}>
+                    <div className="login-form__input-box">
                         <input type="password" placeholder="Nhập mật khẩu" required />
-                        <FaLock className={styles.icon} />
+                        <FaLock className="login-form__icon" />
                     </div>
 
-                    <div className={styles.rememberForgot}>
-                        <label>
+                    <div className="login-form__options">
+                        <label className="login-form__remember">
                             <input type="checkbox" /> Remember me
                         </label>
-                        <Link to="#">Quên mật khẩu?</Link>
+                        <Link to="#" className="login-form__forgot">Quên mật khẩu?</Link>
                     </div>
 
-                    <button type="submit" className={styles.btn}>Đăng nhập</button>
+                    <button type="submit" className="login-form__btn">Đăng nhập</button>
 
-                    <div className={styles.registerLink}>
+                    <div className="login-form__register">
                         <p>Chưa có tài khoản? <Link to="/register">Đăng ký</Link></p>
                     </div>
 
-                    <div className={styles.loginNav}>
+                    <div className="login-form__back">
                         <Link to="/">← Quay về trang chủ</Link>
                     </div>
                 </form>

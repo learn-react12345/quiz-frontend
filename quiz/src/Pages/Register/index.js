@@ -2,7 +2,8 @@ import { checkExits, register, getAllUsers } from "../../services/usersService";
 import { useNavigate, Link } from "react-router-dom";
 import { generateToken } from "../../helpers/generateToken";
 import { FaUser, FaLock } from "react-icons/fa";
-import styles from "./register.module.css";
+
+import "./register.css"; 
 
 function Register() {
     const navigate = useNavigate();
@@ -38,36 +39,33 @@ function Register() {
     };
 
     return (
-        <div className={styles.loginPage}>
-            <div className={styles.wrapper}>
-                <form onSubmit={handleSubmit}>
-                    <h2 className={styles.title}>QUIZZZ</h2>
+        <div className="register-page">
+            <div className="register-page__wrapper">
+                <form onSubmit={handleSubmit} className="register-form">
+                    <h2 className="register-form__title">QUIZZZ</h2>
 
-                    <div className={styles.inputBox}>
-                    <input type="text" placeholder="Nhập họ tên" required />
-                    <FaUser className={styles.icon} />
+                    <div className="register-form__input-box">
+                        <input type="text" placeholder="Nhập họ tên" required />
+                        <FaUser className="register-form__icon" />
                     </div>
 
-                   
-                    <div className={styles.inputBox}>
-                    <input type="email" placeholder="Nhập email" required />
-                    <FaUser className={styles.icon} />
+                    <div className="register-form__input-box">
+                        <input type="email" placeholder="Nhập email" required />
+                        <FaUser className="register-form__icon" />
                     </div>
 
-            
-                    <div className={styles.inputBox}>
-                    <input type="password" placeholder="Nhập mật khẩu" required />
-                    <FaLock className={styles.icon} />
+                    <div className="register-form__input-box">
+                        <input type="password" placeholder="Nhập mật khẩu" required />
+                        <FaLock className="register-form__icon" />
                     </div>
 
+                    <button type="submit" className="register-form__btn">Đăng ký</button>
 
-                    <button type="submit" className={styles.btn}>Đăng ký</button>
-
-                    <div className={styles.registerLink}>
+                    <div className="register-form__login-link">
                         <p>Đã có tài khoản? <Link to="/login">Đăng nhập</Link></p>
                     </div>
 
-                    <div className={styles.loginNav}>
+                    <div className="register-form__back">
                         <Link to="/">← Quay về trang chủ</Link>
                     </div>
                 </form>
@@ -77,5 +75,3 @@ function Register() {
 }
 
 export default Register;
-
-
