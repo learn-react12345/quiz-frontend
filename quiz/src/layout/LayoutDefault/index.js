@@ -5,7 +5,6 @@ import { useSelector } from "react-redux";
 
 function LayoutDefault() {
     const token = getCookie("token");
-    const isLogin = useSelector(state => state.loginReducer);
     return (
         <>
             <div className ="layout-default">
@@ -35,7 +34,7 @@ function LayoutDefault() {
                     </div>
                     <div className = "layout-default__account">
                       {token ? (<>
-                        <NavLink to = "/logout" >dang xuat</NavLink>
+                        <NavLink to = "/logout" >log out</NavLink>
                       </>) : (<>
                         <NavLink to = "/login" >dang nhap</NavLink>
                         <NavLink to = "/register" >dang ky</NavLink>

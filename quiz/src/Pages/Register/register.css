@@ -1,11 +1,9 @@
-
 .register-page {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: url('../../assets/image/anh1.png') no-repeat center center;
-    background-size: cover;
 }
 
 .register-page__wrapper {
@@ -32,6 +30,12 @@
     height: 50px;
     margin: 20px 0;
 }
+.register-form__icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    font-size: 20px;
+}
 
 
 .register-form__input-box input {
@@ -43,23 +47,7 @@
     font-size: 16px;
     color: #fff;
     padding: 0 0 0 20px;
-    outline: none;
 }
-
-
-.register-form__input-box input::placeholder {
-    color: #fff;
-}
-
-
-.register-form__icon {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-}
-
 
 .register-form__btn {
     width: 100%;
@@ -69,8 +57,6 @@
     font-weight: bold;
     border: none;
     border-radius: 40px;
-    cursor: pointer;
-    transition: background 0.3s ease;
 }
 
 
@@ -92,12 +78,6 @@
     font-weight: 600;
 }
 
-
-.register-form__login-link a:hover {
-    text-decoration: underline;
-}
-
-
 .register-form__back {
     text-align: center;
     margin-top: 10px;
@@ -110,7 +90,3 @@
     text-decoration: none;
 }
 
-
-.register-form__back a:hover {
-    text-decoration: underline;
-}

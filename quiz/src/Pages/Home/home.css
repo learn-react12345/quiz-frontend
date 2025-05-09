@@ -1,0 +1,218 @@
+.home__header {
+    text-align: center;
+    background-color: #5D2057;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 450px;
+}
+.home__header .home_title1 {
+    color: white;
+    font-size: 70px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 40px 0 0 0;
+}
+.home__header .home_title2 {
+    color: #EFA929;
+    font-size: 70px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.home__header .home_title3 {
+    color: white;
+}
+.home__header .home__btn {
+    padding: 15px;
+    border-radius: 10px;
+}
+.home__header .home_title4 {
+    color: white;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+.home__wrap {
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1250px;
+}
+.home__wrap .home__wrap-title1 {
+    color: #5D2057;
+    font-size: 50px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 40px 0 0 0;
+
+}
+.home__wrap .home__wrap-title2 {
+    color: #2D70AE;
+    font-size: 40px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+.home__wrap .home__wrap-title3 {
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+.home__wrap .home__wrap-title4 {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+}
+.home__wrap .home__wrap-title4 img {
+    flex: 1;
+    width: 300px;
+}
+.home__wrap .home__wrap-title4 .home__wrap-box .home__wrap-boxhead{
+    font-size: 25px;
+    color: #5D2057;
+    font-weight: 600;
+}
+.home__wrap .home__wrap-title4 .home__wrap-box .home__wrap-desc {
+    width: 400px;
+    margin-right: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.home__wrap .home__wrap-title5 {
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.home__wrap .home__wrap-btn {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #8854C0;
+    color: white;
+}
+
+
+
+.home__selector {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 830px;
+}
+
+.home__selector .home__selector-head {
+    margin-top: 40px;
+    color: #5D2057;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.home__selector .home__selector-selec {
+    width: 800px;
+    margin: auto;
+}
+
+.home__selector .home__selector-selec button{
+    margin: 5px;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: white;
+}
+.home__selector .home__selector-selec button:nth-child(2){
+    background-color: #9A4292;
+    color: white;
+}
+
+.home__selector .home__selector-desc {
+    width: 420px;
+    margin: auto;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.home__selector img {
+    width: 600px;
+    height: 400px;
+}
+
+.home__check {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 630px;
+    background-color: #F3F3F3;
+    
+}
+
+.home__check .home__check-head {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px;
+    color: #5D2057;
+    text-align: center;
+}
+
+.home__check .home__check-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding-left: 30px; 
+    width: 600px;
+    margin: auto;
+}
+
+.home__check .home__check-box .home__check-desc {
+    margin: 10px;
+}
+
+.home__check .home__check-box .home__check-desc span {
+    color: #5D2057;
+    font-weight: 600;
+}
+
+.home__check .home__check-foot  {
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.home__check .home__check-foot .home__check-btn {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #8854C0;
+    color: white;
+    border: #FFFFFF;
+}
+
+.home__foc {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 630px;
+    background-color: #FFFFFF;
+    
+}
+.home__foc .home__foc-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+
+}
+.home__foc .home__foc-wrap img{
+    width: 500px;
+    height: 300px;
+}

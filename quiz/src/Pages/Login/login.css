@@ -4,7 +4,6 @@
     align-items: center;
     min-height: 100vh;
     background: url('../../assets/image/anh1.png') no-repeat center center;
-    background-size: cover;
 }
 
 .login-page__wrapper {
@@ -29,6 +28,12 @@
     height: 50px;
     margin: 20px 0;
 }
+.login-form__icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    font-size: 20px;
+}
 
 .login-form__input-box input {
     width: 100%;
@@ -39,26 +44,14 @@
     font-size: 16px;
     color: #fff;
     padding: 0 0 0 20px;
-    outline: none;
 }
 
-.login-form__input-box input::placeholder {
-    color: #fff;
-}
-
-.login-form__icon {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-}
 
 .login-form__options {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
-    margin: -10px 0 15px;
+    margin-bottom: 12px;
 }
 
 .login-form__options a {
@@ -66,9 +59,7 @@
     text-decoration: none;
 }
 
-.login-form__options a:hover {
-    text-decoration: underline;
-}
+
 
 .login-form__btn {
     width: 100%;
@@ -78,8 +69,7 @@
     font-weight: bold;
     border: none;
     border-radius: 40px;
-    cursor: pointer;
-    transition: background 0.3s ease;
+    
 }
 
 .login-form__btn:hover {
@@ -98,10 +88,6 @@
     font-weight: 600;
 }
 
-.login-form__register a:hover {
-    text-decoration: underline;
-}
-
 .login-form__back {
     text-align: center;
     margin-top: 10px;
@@ -111,8 +97,4 @@
     color: #ddd;
     font-size: 14px;
     text-decoration: none;
-}
-
-.login-form__back a:hover {
-    text-decoration: underline;
 }

@@ -55,7 +55,7 @@ function Register() {
                     </div>
 
                     <div className="register-form__input-box">
-                        <input type="password" placeholder="Nhập mật khẩu" required />
+                        <input type="password" placeholder="Nhập mật khẩu" required autocomplete="off"/>
                         <FaLock className="register-form__icon" />
                     </div>
 
@@ -66,7 +66,7 @@ function Register() {
                     </div>
 
                     <div className="register-form__back">
-                        <Link to="/">← Quay về trang chủ</Link>
+                        <Link to="/"> -- Quay về trang chủ --</Link>
                     </div>
                 </form>
             </div>

@@ -11,3 +11,4 @@ export const getAnswers = async (id) => {
     const result = await get(`answers/${id}`);
     return result;
 };
+

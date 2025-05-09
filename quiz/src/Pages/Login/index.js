@@ -59,7 +59,7 @@ function Login() {
                     </div>
 
                     <div className="login-form__back">
-                        <Link to="/">← Quay về trang chủ</Link>
+                        <Link to="/"> -- Quay về trang chủ -- </Link>
                     </div>
                 </form>
             </div>
