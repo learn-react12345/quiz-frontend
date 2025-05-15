@@ -74,12 +74,101 @@ function Home() {
             </div>
             <div className = "home__foc">
                 <div className = "home__foc-wrap">
-                    <div className = "home__foc-box1">
+                    <div className = "home__foc-box">
                         <div className = "home__foc-title">Quickly find or create</div>
                         <div className = "home__foc-title1">một câu đố từ thư viện</div>
+                        <div className = "home__foc-desc">Chuẩn bị các câu đố tương tác, chất lượng cao chỉ trong hai phút.</div>
+                        <div className = "home__foc-title2">✔️ Thư viện nội dung có thể tùy chỉnh</div>
+                        <div className = "home__foc-desc1">Duyệt qua hơn 30 triệu hoạt động trải rộng trên tất cả các chủ đề và chủ đề</div>
+                        <div className = "home__foc-title3">✔️ Tạo, sao chép hoặc chỉnh sửa</div>
+                        <div className = "home__foc-desc2">Xây dựng từ đầu, sao chép toàn bộ hoạt động hoặc tạo bài kiểm tra của riêng bạn bằng cách kết hợp nội dung đáp ứng tốt nhất nhu cầu của học sinh.</div>
                     </div>
                     <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/63a3e944f8cc91ecb2166330_Fill%20in%20the%20blanks%20-%20import%20from%20library.webp" />
                 </div>
+                <div className = "home__foc-wrap2">
+                    <div className = "home__foc-box">
+                        <div className = "home__foc-title">Nhận kết quả chi tiết tại</div>
+                        <div className = "home__foc-title1">trong tầm tay</div>
+                        <div className = "home__foc-desc">Công cụ tạo bài kiểm tra trực tuyến của chúng tôi cung cấp thông tin chi tiết chính xác mà bạn cần để biến việc giảng dạy dựa trên dữ liệu thành hiện thực.</div>
+                        <div className = "home__foc-title2">✔️ Thông tin chi tiết trong thời gian thực</div>
+                        <div className = "home__foc-desc1">Xác định và điều chỉnh ngay lập tức theo nhu cầu của người tham gia</div>
+                        <div className = "home__foc-title3">✔️ Báo cáo ảnh chụp nhanh</div>
+                        <div className = "home__foc-desc2">Xem hiệu suất tổng thể, câu hỏi hoặc chủ đề khó nhất và tiến độ của từng cá nhân</div>
+                    </div>
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/63c6e0253776dab1035e073c_ezgif.com-gif-maker.png" />
+                </div>
+                <div className = "home__foc-wrap3">
+                    <div className = "home__foc-box">
+                        <div className = "home__foc-title">Quizizz easily integrates</div>
+                        <div className = "home__foc-title1">with your existing tools</div>
+                        <div className = "home__foc-desc">Tích hợp liền mạch công cụ tạo bài kiểm tra trực tuyến của chúng tôi với các công cụ như Google Classroom, Schoology và Canvas.</div>
+                        <div className = "home__foc-title2">✔️ Chia sẻ dễ dàng</div>
+                        <div className = "home__foc-desc1">Chia sẻ trực tiếp các liên kết bài kiểm tra với những người tham gia trong lớp học của bạn chỉ bằng một cú nhấp chuột</div>
+                        <div className = "home__foc-title3">✔️ Đồng bộ hóa dễ dàng</div>
+                        <div className = "home__foc-desc2">Update grades and reports in the blink of an eye by syncing Quizizz with your preferred LMS</div>
+                    </div>
+                    <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/6333fdf771367551bf73b8f9_Integrate%20Tools%20Image-p-1600.webp" />
+                </div>
+            </div>
+
+            <div className = "home__explore">
+                <div className = "home__explore-wrap">
+                    <div className = "home__explore-head">Explore Resources by Grade</div>
+                    <button className = "home__explore-btn">Kindergarten</button>
+                    <button className = "home__explore-btn">1st Grade</button>
+                    <button className = "home__explore-btn">2nd Grade</button>
+                    <button className = "home__explore-btn">3rd Grade</button>
+                    <button className = "home__explore-btn">4th Grade</button>
+                    <button className = "home__explore-btn">5th Grade</button>
+                    <button className = "home__explore-btn">6th Grade</button>
+                    <button className = "home__explore-btn">7th Grade</button>
+                    <button className = "home__explore-btn">8th Grade</button>
+                    <button className = "home__explore-btn">9th Grade</button>
+                    <button className = "home__explore-btn">10th Grade</button>
+                    <button className = "home__explore-btn">11th Grade</button>
+                    <button className = "home__explore-btn">12th Grade</button>
+                </div>
+                <div className = "home__explore-wrap">
+                    <div className = "home__explore-head">Explore Resources by Subject</div>
+                    <button className = "home__explore-btn">môn Toán</button>
+                    <button className = "home__explore-btn">Khoa học</button>
+                    <button className = "home__explore-btn">Khoa học Xã hội</button>
+                    <button className = "home__explore-btn">Reading & Writing</button>
+                </div>
+            </div>
+            <div className = "home__interested">
+                <div className = "home__interested-head">You might also be interested in</div>
+                    <ul>
+                        <li>✔️ Đánh giá quá trình</li>
+                        <li>✔️ Câu hỏi mở</li>
+                        <li>✔️ Điền vào chỗ trống</li>
+                        <li>✔️ Exit tickets</li>
+                        <li>✔️ Câu hỏi trắc nghiệm</li>
+                        <li>✔️ Bell ringers</li>
+                        <li>✔️ Common Core Standards</li>
+                        <li>✔️ Free online quiz games</li>
+                        <li>✔️ Online Homework</li>
+                        <li>✔️ Free live quizzes</li>
+                        <li>✔️ Fun ice breakers</li>
+                        <li>✔️ Interactive Poll questions</li>
+                        <li>✔️ Reorder questions</li>
+                        <li>✔️ Lesson plans</li>
+                        <li>✔️ Hotspot questions</li>
+                        <li>✔️ Paper mode</li>
+                        <li>✔️ HSC 2023</li>
+                        <li>✔️ GCSE 2023</li>
+                    </ul>
+            </div>
+            <div className = "home__question">
+                <div className = "home__question-head">câu hỏi thường gặp</div>
+                <ul>
+                    <li>Quizizz có miễn phí sử dụng không?<span class="icon">▼</span></li>
+                    <li>Tôi có thể thêm loại câu hỏi nào vào bài kiểm tra của mình?<span class="icon">▼</span></li>
+                    <li>Làm thế nào người tham gia có thể tham gia bài kiểm tra của tôi?<span class="icon">▼</span></li>
+                    <li>Làm cách nào để chấm điểm bài kiểm tra trực tuyến trên Quizizz?<span class="icon">▼</span></li>
+                    <li>Tôi có thể tìm thấy kết quả bài kiểm tra của mình ở đâu?<span class="icon">▼</span></li>
+                    
+                </ul>
             </div>
         </>
     )

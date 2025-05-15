@@ -250,6 +250,35 @@
       "userId": 1,
       "topicId": 1,
       "answers": []
+    },
+    {
+      "id": "8d93",
+      "userId": 1,
+      "topicId": 3,
+      "answers": []
+    },
+    {
+      "id": "e1b8",
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 2,
+          "answers": 0
+        },
+        {
+          "questionId": 3,
+          "answers": 2
+        },
+        {
+          "questionId": 4,
+          "answers": 1
+        },
+        {
+          "questionId": 5,
+          "answers": 0
+        }
+      ]
     }
   ]
 }
