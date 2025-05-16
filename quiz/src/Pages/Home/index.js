@@ -167,7 +167,6 @@ function Home() {
                     <li>Làm thế nào người tham gia có thể tham gia bài kiểm tra của tôi?<span class="icon">▼</span></li>
                     <li>Làm cách nào để chấm điểm bài kiểm tra trực tuyến trên Quizizz?<span class="icon">▼</span></li>
                     <li>Tôi có thể tìm thấy kết quả bài kiểm tra của mình ở đâu?<span class="icon">▼</span></li>
-                    
                 </ul>
             </div>
         </>

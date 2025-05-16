@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Navigate, useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { getTopic } from "../../services/topicService";
 import { getListQuestion } from "../../services/questionService";
 import { getCookie } from "../../helpers/cookie";
