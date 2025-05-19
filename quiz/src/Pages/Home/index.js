@@ -1,4 +1,5 @@
 import "./home.css";
+import { FaFacebook,FaTwitter,FaInstagram } from "react-icons/fa";
 function Home() {
     return (
         <>
@@ -167,6 +168,65 @@ function Home() {
                     <li>Làm thế nào người tham gia có thể tham gia bài kiểm tra của tôi?<span class="icon">▼</span></li>
                     <li>Làm cách nào để chấm điểm bài kiểm tra trực tuyến trên Quizizz?<span class="icon">▼</span></li>
                     <li>Tôi có thể tìm thấy kết quả bài kiểm tra của mình ở đâu?<span class="icon">▼</span></li>
+                </ul>
+            </div>
+            <div className = "home__create">
+                <div className = "home__create-box">
+                    <div className = "home__create-desc">Cách tốt nhất để đặt câu hỏi, khám phá ý tưởng và để người tham gia thể hiện những gì họ biết.</div>
+                    <div className="home__create-desc1">Làm bài kiểm tra trực tuyến miễn phí</div>
+                    <div className="home__create-desc2">trong vài phút.</div>
+                    <button className ="home__create-btn">Tạo một bài kiểm tra</button>
+                </div>
+                <img src="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/62fa641a161d3a4124681cfa_Mask%2520group-p-1080.webp"/>
+            </div>
+
+            <div className = "home__quizz">
+                <div className = "home__quizz-wrap">
+                    <div className = "home__quizz-box1">
+                        <img src = "https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/6792157ffa3e2e9204d4a3b6_%5Bcm%5D%20Brand.svg" />
+                        <div className="home__quizz-desc">✔️ Khả năng tiếp cận & Hòa nhập</div>
+                    </div>
+                    <div className = "home__quizz-box2">
+                        <ul>
+                            <li>Blog Quizizz</li>
+                            <li>Tài nguyên dành cho giáo viên</li>
+                            <li>Nhà giáo dục được chứng nhận</li>
+                            <li>Chuẩn bị kiểm tra trạng thái</li>
+                            <li>Quizizz cho công việc</li>
+                            <li>Trung tâm trợ giúp</li>
+                            <li>Bảng giáo viên</li>
+                            <li>IQAPS</li>
+                            <li>AI Toolkit</li>
+                            <li>Khả năng tiếp cận và hòa nhập</li>
+                            <li>Sơ đồ trang web</li>
+                            <li>Điều khoản dịch vụ</li>
+                        </ul>
+                    </div>
+                    <div className = "home__quizz-box3">
+                        <ul>
+                            <li>bảng tính</li>
+                            <li>Chương trình người bán lại</li>
+                            <li>Chính sách bảo mật</li>
+                            <li>Trung tâm bảo mật</li>
+                            <li>Nghề nghiệp</li>
+                            <li>Liên hệ hỗ trợ</li>
+                            <li>Về chúng tôi</li>
+                        </ul>
+                    </div>
+                    <div className = "home__quizz-box4">
+                        <div className="home__quizz-img">
+                            <img src ="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/60aca2b71ab9a563ffecf204_google%20play.webp" />
+                            <img src ="https://cdn.prod.website-files.com/60aca2b71ab9a5e4ececf1cf/60aca2b71ab9a50fe9ecf205_apple%20app%20store.webp" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className = "home__footer">
+                <div className = "home__footer-quiz">2024 Quizizz Inc.</div>
+                <ul>
+                    <li><FaFacebook /></li>
+                    <li><FaTwitter /></li>
+                    <li><FaInstagram /></li>
                 </ul>
             </div>
         </>

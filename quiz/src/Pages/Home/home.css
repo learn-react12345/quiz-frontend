@@ -421,3 +421,112 @@
     font-weight: 600;   
 
 }
+
+.home__create {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5D2057;
+}
+.home__create img {
+    width: 600px;
+    height: 400px;
+}
+.home__create  .home__create-box {
+    padding: 20px;
+    width: 600px;
+}
+.home__create  .home__create-box .home__create-desc {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.home__create  .home__create-box .home__create-desc1 {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.home__create  .home__create-box .home__create-desc2 {
+    color: #EFA929;
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.home__create  .home__create-box .home__create-btn {
+    padding: 20px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.home__quizz {
+    background-color: #FFFFFF;
+    height: 700px;
+}
+.home__quizz .home__quizz-wrap{
+    display: flex;
+    height: 600px;
+    padding-top: 50px;
+}
+.home__quizz .home__quizz-wrap .home__quizz-box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 580px;
+    position: relative;
+}
+.home__quizz .home__quizz-wrap .home__quizz-box1 img{
+    width: 150px;
+    height: 100px;
+    padding-left: 150px;
+}
+.home__quizz .home__quizz-wrap .home__quizz-box1 .home__quizz-desc{
+    width: 170px;
+    position: absolute;
+    left: 137px;
+    top: 520px;
+    font-size: 17px;
+    color: #2D70AE;
+    font-weight: 600;
+}
+.home__quizz .home__quizz-wrap .home__quizz-box2 ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.home__quizz .home__quizz-wrap .home__quizz-box3 ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.home__quizz .home__quizz-wrap .home__quizz-box4 .home__quizz-img{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.home__quizz .home__quizz-wrap .home__quizz-box4 .home__quizz-img img {
+    padding: 10px;
+}
+.home__footer {
+    background-color: #FFFFFF;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.home__footer ul {
+    display: flex;
+    padding-right: 100px;
+}
+.home__footer ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 30px;
+}
+.home__footer .home__footer-quiz {
+    font-size: 20px;
+    padding-left: 100px;
+}
